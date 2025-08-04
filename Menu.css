@@ -1,0 +1,74 @@
+h1{
+    text-align: center;
+    color: goldenrod;
+}
+nav{
+    background-color: goldenrod;
+    border: 3px solid rgb(240, 193, 22);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+a{
+    color: black;
+}
+p{
+    color: rgb(2, 2, 2);
+    text-align: center;
+    font-size: larger;
+}
+img{
+    border: 2px solid goldenrod;
+}
+body{
+    background-color: beige;
+    background-image: url(https://img.freepik.com/free-vector/grunge-paper-background_1048-10026.jpg?semt=ais_hybrid&w=740&q=80);
+}
+.image-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #efeaea; 
+}
+.image-scroll-container img {
+  height: 300px;
+  flex-shrink: 0;
+}
+
+/* bar */
+#bar{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/7c/9d/ff/kaname-bar.jpg?w=900&h=500&s=1);
+    height: 400px;
+    width: 4000px;
+}
+h2{
+    text-align: center;
+    color: goldenrod;
+}
+/* dine */
+#dine{
+    background-image: url(https://images.trvl-media.com/lodging/34000000/33140000/33133700/33133659/31aaa3dd.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill);
+    height: 400px;
+    width: 4000px;
+}
+p,h2{
+    text-align: left;
+}
+
+
+/* footer */
+footer>h5{
+    color: grey;
+    text-align: center;
+    background-color: whitesmoke;
+}
+footer>p{
+    color: grey;
+    text-align: center;
+}
+div{
+    width: 2000px;
+    border: 2px solid rgb(87, 81, 81);
+}

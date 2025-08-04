@@ -1,0 +1,74 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmOevpyyjlvMwkE9wmZyGcYcDa9jFeqv920Q&s);
+}
+h1{
+    text-align: center;
+    color: goldenrod;
+}
+h3{
+    text-align: center;
+    color: goldenrod;
+}
+nav{
+    background-color: goldenrod;
+    border: 3px solid rgb(240, 193, 22);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+a{
+    color: black;
+} 
+a:hover{
+    background-color: rgb(245, 223, 78);
+    transform: scale(1.3);
+}
+p{
+    color: rgb(2, 2, 2);
+    text-align: right;
+    font-size: larger;
+}
+/* contact */
+header{
+    text-align: center;
+}
+input{
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+}
+button{
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+}
+header>img{
+    border-radius: 100px;
+    border: 4px solid grey;
+}
+header>img:hover{
+    transform: scale(1.2);
+}
+/* footer */
+footer>h5{
+    color: grey;
+    text-align: center;
+    background-color: whitesmoke;
+}
+footer>p{
+    color: grey;
+    text-align: center;
+}
+div{
+    width: 2000px;
+    border: 2px solid rgb(87, 81, 81);
+}
+/* about us */
+header>p{
+    text-align: center;
+}
+img{
+    border: 4px solid gold;
+    border-radius: 100px;
+}
+img:hover{
+    border: 4px solid rgb(230, 113, 113);
+}

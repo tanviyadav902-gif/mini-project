@@ -1,0 +1,43 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmOevpyyjlvMwkE9wmZyGcYcDa9jFeqv920Q&s);
+}
+h1{
+    text-align: center;
+    color: goldenrod;
+}
+
+
+h2{
+    color: rgb(123, 134, 123);
+    text-align: center;
+    text-decoration: underline;
+}
+#images{
+    text-align: center;
+    height: 700px;
+    width: 1500px;
+}
+#images>img:hover{
+    transform: scale(1.15);
+}
+#food{
+    text-align: center;
+    height: 1300px;
+    width: 1500px;
+}
+#food>img:hover{
+    transform: scale(1.15);
+}
+footer>h5{
+    color: grey;
+    text-align: center;
+    background-color: whitesmoke;
+}
+footer>p{
+    color: grey;
+    text-align: center;
+}
+div{
+    width: 2000px;
+    border: 2px solid rgb(87, 81, 81);
+}
